@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Experiences </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="experiences.css">
+
+</head>
+<body>
+    <header>
+        <nav class ="navbar"> 
+            <a href="index.html" class="logo"> <img src="images/LOGO_blanc-removebg-preview (1).png" alt="logo"></a>
+            <div class="Nav-links">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="active"><a href="experiences.html">Experiences</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="diplome.html">Diplômes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <img src="images/menu-btn.png" alt="Menu burger" class="menu-burger">
+        </nav>
+    </header>
+    
+    <div class="experiences">
+
+        <div class="experience">
+            <div class="content">
+                <h1> Agosto Pompage Beton Service</h1>
+                <p> Je suis resté environ 4 mois à ce poste, qui était un poste d'exploitant transport.
+                    J'ai eu comme mission par exemple de concevoir le planning pour prêt de 50 chauffeurs poids lourds.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="content">
+                <h1> CitéLiv</h1>
+                <p>Chauffeur livreur sur la métropôle lilloise pendant 1 an, j'étais aux commandes de certains aspect de l'entreprise tels que la prise en charge des livraisons et l'aide de la faisabilité des tournées chauffeur.</p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="content">
+                <h1> Expérience 3</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloribus ipsa vero exercitationem fuga nisi aliquam porro pariatur laudantium, voluptate veniam aperiam vel placeat perferendis. Voluptas natus ut ab quod?</p>
+            </div>  
+        </div>
+
+        <div class="experience">
+            <div class="content">
+                <h1> Expérience 4</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloribus ipsa vero exercitationem fuga nisi aliquam porro pariatur laudantium, voluptate veniam aperiam vel placeat perferendis. Voluptas natus ut ab quod?</p>
+            </div>    
+        </div>
+    </div>
+</body>
+
+<div class="vide">
+
+</div>
+
+<footer>
+    <div class="main-content">
+        <div class="left-box">
+            <h2> Adresse </h2>
+            <div class="content">
+                <div class="adresse">
+                    <img src="images/map.png" alt="">
+                </div>
+                
+                <div class="telephone">
+                    <div class="text"> 06-99-11-22-00 </div>
+                </div>
+
+                <div class="email">
+                    <div class="text">maxence.degaugue@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-box">
+            <h2> Contact </h2>
+            <div class="content">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email</div>
+                        <input type="email" required>
+                    </div>
+                    
+                    <div class="message">
+                        <div class="text">Message</div>
+                        <textarea name="message" id="message" cols="20" rows="10" required></textarea>
+                    </div>
+                    
+                    <div class="btn">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Script JS pour la transition de la navbar -->
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".Nav-links")
+        
+menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+})
+</script>
+</html>

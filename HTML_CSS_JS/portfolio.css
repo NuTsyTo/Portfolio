@@ -1,0 +1,10 @@
+.portfolio{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+h4{
+color: white;
+}

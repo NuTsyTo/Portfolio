@@ -1,0 +1,35 @@
+.diplomes{
+    margin-top: 10em;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.diplome{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid rgb(128, 12, 41);
+    width:500px;
+    justify-content: center;
+    background: linear-gradient(rgba(15, 7, 0,0.90), rgb(37, 20, 4, 0.500), rgb(48, 28, 9, 0.200));
+    padding: 20px;
+    margin: 10px;
+}
+
+.content {
+    color: white;
+    width: 400px;
+}
+
+.content h1 {
+    margin:2px;
+    text-align: center;
+}
+
+.vide{
+    padding: 50px;
+}
